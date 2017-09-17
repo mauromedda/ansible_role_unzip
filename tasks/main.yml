@@ -1,7 +1,7 @@
 ---
 # tasks file for ansible_role_unzip
 
-- name: "UNZIP | {{ unzip_state.state }}"
+- name: "UNZIP | {{ unzip_state }}"
   yum:
     name: unzip
     state: "{{ unzip_state }}"
